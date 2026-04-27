@@ -43,6 +43,8 @@ The **Video Game Sales Analytics Dashboard** is a Power BI report built to analy
 
 > *Surfaces the top game, top region, and top console while breaking down sales by title, console, publisher, month, critic score band, and geography.*
 
+<img width="1487" height="866" alt="Video Games Sales Dashboard" src="https://github.com/user-attachments/assets/c8f9a0f0-3993-4c95-a6be-51f3e2f4f5c9" />
+
 #### KPI / Slicer Filters
 
 | Filter | Options |
