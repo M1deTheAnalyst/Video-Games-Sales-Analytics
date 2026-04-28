@@ -2,7 +2,7 @@
 
 > A Power BI dashboard that identifies top games, key markets, and platform performance driving overall sales across consoles, regions, publishers, and time periods.
 
-<img width="1487" height="866" alt="Video Games Sales Dashboard" src="https://github.com/user-attachments/assets/ce51a8b7-0149-432e-9227-5781995c9c7f" />
+<img width="1489" height="867" alt="Video Games Sales Dashboard" src="https://github.com/user-attachments/assets/1e3343fd-858c-4453-b24f-4bde478643f0" />
 
 ---
 
@@ -43,7 +43,7 @@ The **Video Game Sales Analytics Dashboard** is a Power BI report built to analy
 
 > *Surfaces the top game, top region, and top console while breaking down sales by title, console, publisher, month, critic score band, and geography.*
 
-<img width="1487" height="866" alt="Video Games Sales Dashboard" src="https://github.com/user-attachments/assets/c8f9a0f0-3993-4c95-a6be-51f3e2f4f5c9" />
+<img width="1489" height="867" alt="Video Games Sales Dashboard" src="https://github.com/user-attachments/assets/7360a04f-b1e5-45de-b3a2-054000a302da" />
 
 #### KPI / Slicer Filters
 
@@ -56,9 +56,9 @@ The **Video Game Sales Analytics Dashboard** is a Power BI report built to analy
 
 | Card | Value | Supporting Detail |
 |------|-------|------------------|
-| **Top Game** | Call of Duty: Black Ops II | 1.9% contribution to overall sales ($29.6M) — Publisher: Activision, Developer: Treyarch |
-| **Top Region** | NA (North America) | 43.0% contribution ($673.4M) — Most played game: Call of Duty: Ghosts |
-| **Top Console** | PC | 2.6% contribution ($40.2M) — Most played game: The Sims 4 |
+| **Top Game** | Call of Duty: Black Ops II | 1.9% contribution to overall sales ($29.6) — Publisher: Activision, Developer: Treyarch |
+| **Top Region** | NA (North America) | 43.0% contribution ($673.4) — Most played game: Call of Duty: Ghosts |
+| **Top Console** | PC | 2.6% contribution ($40.2) — Most played game: The Sims 4 |
 
 #### Visuals
 
@@ -121,16 +121,16 @@ The **Video Game Sales Analytics Dashboard** is a Power BI report built to analy
 |--------|------|-------------|
 | `S/N` | Integer | Serial number / unique row identifier |
 | `title` | String | Game title name |
-| `console` | String | Platform the game was released on (PS4, XOne, PC, etc.) |
+| `console` | String | Platform the game was released on (PS4, XBox One, PC, etc.) |
 | `genre` | String | Game genre (Action, Shooter, Sports, RPG, etc.) |
 | `publisher` | String | Publishing company responsible for the release |
 | `developer` | String | Studio that developed the game |
 | `critic_score` | Numeric | Metacritic critic score on a 0–10 scale |
-| `total_sales` | Numeric | Global total sales in millions USD |
-| `na_sales` | Numeric | North America regional sales (millions USD) |
-| `jp_sales` | Numeric | Japan regional sales (millions USD) |
-| `pal_sales` | Numeric | PAL region sales — Europe, Australia (millions USD) |
-| `other_sales` | Numeric | Rest-of-world sales (millions USD) |
+| `total_sales` | Numeric | Global total sales in USD |
+| `na_sales` | Numeric | North America regional sales (USD) |
+| `jp_sales` | Numeric | Japan regional sales (USD) |
+| `pal_sales` | Numeric | PAL region sales — Europe, Australia (USD) |
+| `other_sales` | Numeric | Rest-of-world sales (USD) |
 | `release_date` | Date | Date the game was officially released |
 | `last_update` | Date | Date the record was last updated in the dataset |
 | `Date` | Date | Full date key used to join the fact table to the date dimension |
@@ -212,13 +212,13 @@ Several visuals support drill-down for deeper analysis:
 
 ## Insights Summary
 
-1. **North America is the dominant revenue market** : NA contributes **43.0% ($673.4M)** of all global video game sales — nearly equal to PAL and JP combined. Any publisher prioritising global revenue should treat NA as their primary launch market.
+1. **North America is the dominant revenue market** : NA contributes **43.0% ($673.4)** of all global video game sales — nearly equal to PAL and JP combined. Any publisher prioritising global revenue should treat NA as their primary launch market.
 
-2. **PS4 is the top-performing console by a wide margin** : PS4 generates **$511.96M** in total sales — more than double the XBox One ($257.9M) and over twice the PS3 ($243M). Sony's platform commanded the market during the dataset period, making it the most critical platform for multi-title publishers.
+2. **PS4 is the top-performing console by a wide margin** : PS4 generates **$511.96** in total sales — more than double the XBox One ($257.9) and over twice the PS3 ($243). Sony's platform commanded the market during the dataset period, making it the most critical platform for multi-title publishers.
 
-3. **Activision leads all publishers** : With **$230.38M** in total sales — $53.75M ahead of second-place Ubisoft — Activision's dominance is driven almost entirely by the Call of Duty franchise, with Treyarch as its highest-grossing development studio.
+3. **Activision leads all publishers** : With **$230.38** in total sales — $53.75 ahead of second-place Ubisoft — Activision's dominance is driven almost entirely by the Call of Duty franchise, with Treyarch as its highest-grossing development studio.
 
-4. **Critic scores are a strong predictor of commercial performance** : Games rated Excellent (9–10) average **$1.30M** per title versus just **$0.13M** for Poor-rated titles — a **10× difference**. Titles rated Very Good (8–8.9) still outperform Good-rated titles (7–7.9) by nearly **2×**, validating the commercial value of review quality.
+4. **Critic scores are a strong predictor of commercial performance** : Games rated Excellent (9–10) average **$1.30** per title versus just **$0.13** for Poor-rated titles — a **10× difference**. Titles rated Very Good (8–8.9) still outperform Good-rated titles (7–7.9) by nearly **2×**, validating the commercial value of review quality.
 
 5. **November is the most commercially powerful month** : Total game sales peak in November at **28.9% above average**, consistent with the holiday season release window adopted across the industry. Publishers launching flagship titles outside of Q4 face a structurally lower revenue ceiling.
 
