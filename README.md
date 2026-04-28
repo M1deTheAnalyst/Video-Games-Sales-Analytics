@@ -221,7 +221,7 @@ Several visuals support drill-down for deeper analysis:
 
 5. **November is the most commercially powerful month** : Total game sales peak in November at **28.9% above average**, consistent with the holiday season release window adopted across the industry. Publishers launching flagship titles outside of Q4 face a structurally lower revenue ceiling.
 
-6. **The top 5 titles are all multi-platform shooter or action franchises** : Call of Duty: Black Ops II, Call of Duty: Ghosts, Grand Theft Auto V, Call of Duty: Black Ops 3, and Minecraft collectively dominate the leaderboard — confirming that franchise IP in the Shooter and Action genres holds a structural commercial advantage over new IP.
+6. **The top 5 titles are all multi-platform shooter or action franchises** : Call of Duty: Black Ops II, Call of Duty: Ghosts, Grand Theft Auto V, Call of Duty: Black Ops 3, and Minecraft collectively dominate the leaderboard confirming that franchise IP in the Shooter and Action genres holds a structural commercial advantage over new IP.
 
 7. **July is the lowest revenue month of the year** : July records a **-52.8% drop** in total game sales, marking it as the industry's peak dry period. Publishers avoiding July for major releases are making commercially rational decisions based on audience purchasing behaviour.
 
