@@ -171,8 +171,7 @@ video-game-sales-dashboard/
 
 1. **Clone or download the repository**
    ```bash
-   git clone https://github.com/M1deTheAnalyst/Video-Game-Sales-Dashboard.git
-   cd video-game-sales-dashboard
+   https://github.com/M1deTheAnalyst/Video-Games-Sales-Analytics.git
    ```
 
 2. **Open the dashboard**
