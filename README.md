@@ -62,30 +62,30 @@ The **Video Game Sales Analytics Dashboard** is a Power BI report built to analy
 
 #### Visuals
 
-**Total Sales and Total Games by Month — Combo Chart (Bar + Line)**
+**Total Sales and Total Games by Month : Combo Chart (Bar + Line)**
 - Tracks monthly total sales revenue (bar) against total number of game releases (dotted line) across the calendar year
 - Annotated with month-over-month percentage changes to quickly identify growth and decline periods
 - Useful for spotting seasonal spikes, holiday-window patterns, and release drought periods
 
-**Avg Sales Per Game by Critic Score Band — Horizontal Bar Chart**
+**Avg Sales Per Game by Critic Score Band : Horizontal Bar Chart**
 - Groups all titles into six critic score tiers and compares the average sales generated per game within each band
 - Answers the core question: do higher-rated games actually sell more?
 - Supports data-driven decisions around marketing investment for high-scoring titles
 
-**Total Sales by Title — Donut Chart** *(Drill-down to Console)*
+**Total Sales by Title : Donut Chart** *(Drill-down to Console)*
 - Displays proportional revenue share across the top-grossing game titles globally
 - Drill-down reveals which specific consoles each title generated its revenue on
 - Provides a quick view of franchise dominance within the overall market
 
-**Total Sales by Region — Clustered Bar Chart**
+**Total Sales by Region : Clustered Bar Chart**
 - Ranks the four major geographic markets (NA, PAL, JP, OTHER) by total sales contribution
 - Enables regional prioritisation for launch strategies and localisation investment decisions
 
-**Total Sales by Console — Horizontal Bar Chart** *(Drill-down to Title)*
+**Total Sales by Console : Horizontal Bar Chart** *(Drill-down to Title)*
 - Ranks all console platforms by total aggregated sales
 - Drill-down reveals which individual game titles power each console's revenue performance
 
-**Total Sales by Publisher — Horizontal Bar Chart** *(Drill-down to Developer)*
+**Total Sales by Publisher : Horizontal Bar Chart** *(Drill-down to Developer)*
 - Ranks publishing companies by total global sales revenue
 - Drill-down surfaces the specific development studios responsible for each publisher's commercial output
 
@@ -213,11 +213,11 @@ Several visuals support drill-down for deeper analysis:
 
 1. **North America is the dominant revenue market** : NA contributes **43.0% ($673.4)** of all global video game sales — nearly equal to PAL and JP combined. Any publisher prioritising global revenue should treat NA as their primary launch market.
 
-2. **PS4 is the top-performing console by a wide margin** : PS4 generates **$511.96** in total sales — more than double the XBox One ($257.9) and over twice the PS3 ($243). Sony's platform commanded the market during the dataset period, making it the most critical platform for multi-title publishers.
+2. **PS4 is the top-performing console by a wide margin** : PS4 generates **$511.96** in total sales, more than double the XBox One ($257.9) and over twice the PS3 ($243). Sony's platform commanded the market during the dataset period, making it the most critical platform for multi-title publishers.
 
-3. **Activision leads all publishers** : With **$230.38** in total sales — $53.75 ahead of second-place Ubisoft — Activision's dominance is driven almost entirely by the Call of Duty franchise, with Treyarch as its highest-grossing development studio.
+3. **Activision leads all publishers** : With **$230.38** in total sales and $53.75 ahead of second-place Ubisoft, Activision's dominance is driven almost entirely by the Call of Duty franchise, with Treyarch as its highest-grossing development studio.
 
-4. **Critic scores are a strong predictor of commercial performance** : Games rated Excellent (9–10) average **$1.30** per title versus just **$0.13** for Poor-rated titles — a **10× difference**. Titles rated Very Good (8–8.9) still outperform Good-rated titles (7–7.9) by nearly **2×**, validating the commercial value of review quality.
+4. **Critic scores are a strong predictor of commercial performance** : Games rated Excellent (9–10) average **$1.30** per title versus just **$0.13** for Poor-rated titles with a **10× difference**. Titles rated Very Good (8–8.9) still outperform Good-rated titles (7–7.9) by nearly **2×**, validating the commercial value of review quality.
 
 5. **November is the most commercially powerful month** : Total game sales peak in November at **28.9% above average**, consistent with the holiday season release window adopted across the industry. Publishers launching flagship titles outside of Q4 face a structurally lower revenue ceiling.
 
